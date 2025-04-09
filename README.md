@@ -8,7 +8,7 @@ Antibiotic resistance gene prediction tool based on sequence features and protei
 conda install prodigal
 ```
 
-**安装 Prodigal：**
+**安装Prodigal之前需要添加以下频道：**
 ```bash
 conda config --add channels defaults
 conda config --add channels bioconda
