@@ -45,14 +45,7 @@ def main():
     radical = 1 if args.radical else 0
     nucleotide = 1 if args.nucleotide else 0
     clean = 1 if args.clean else 0
-    # Print parameters for confirmation
-    print(f"Input FASTA file: {fasta_file}")
-    print(f"Output CSV file: {csv_file}")
-    print(f"Enable BLAST: {blast}")
-    print(f"Enable writing all results: {wirteall}")
-    print(f"Enable radical mode: {wirteall}")
-    print(f"Prediction threshold set to: {threshold}")
-    
+
     # Load models and related data
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     try:
