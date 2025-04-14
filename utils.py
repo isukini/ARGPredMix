@@ -182,7 +182,7 @@ def write_header_to_csv(csvfile, nucleotide):
     if nucleotide == 1:
         csvwriter.writerow([
             'Fasta File', 'Sequence Name','Gene Sequences', 'Amino Acid Sequences', 'resistant gene', 'score', 
-            'Resistance category', 'ARG_identity', 'CARD_identity', 
+            'Resistance category', 'Dataset_identity', 'CARD_identity', 
             'beta-lactam', 'beta-lactam_score', 'peptide', 'peptide_score', 'macrolide', 
             'macrolide_score', 'fluoroquinolone', 'fluoroquinolone_score', 'aminoglycoside', 
             'aminoglycoside_score', 'tetracycline', 'tetracycline_score', 'lincosamide', 
@@ -197,7 +197,7 @@ def write_header_to_csv(csvfile, nucleotide):
     else:
         csvwriter.writerow([
             'Fasta File', 'Sequence Name', 'Amino Acid Sequence', 'resistant gene', 'score', 
-            'Resistance category', 'ARG_identity', 'CARD_identity', 
+            'Resistance category', 'Dataset_identity', 'CARD_identity', 
             'beta-lactam', 'beta-lactam_score', 'peptide', 'peptide_score', 'macrolide', 
             'macrolide_score', 'fluoroquinolone', 'fluoroquinolone_score', 'aminoglycoside', 
             'aminoglycoside_score', 'tetracycline', 'tetracycline_score', 'lincosamide', 
